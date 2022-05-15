@@ -11,5 +11,8 @@
         <module name="Service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spring-bilibili-dao" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
