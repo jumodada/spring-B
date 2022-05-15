@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="B-API" />
         <module name="B-Dao" />
+        <module name="Service" />
       </profile>
     </annotationProcessing>
   </component>
