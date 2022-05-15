@@ -9,6 +9,7 @@
         <module name="B-API" />
         <module name="B-Dao" />
         <module name="Service" />
+        <module name="Spring-bilibili-dao" />
       </profile>
     </annotationProcessing>
   </component>
