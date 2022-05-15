@@ -15,4 +15,11 @@
       <module name="Spring-bilibili-dao" target="8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="B-API" options="-parameters" />
+      <module name="B-Dao" options="-parameters" />
+      <module name="Service" options="-parameters" />
+    </option>
+  </component>
 </project>
