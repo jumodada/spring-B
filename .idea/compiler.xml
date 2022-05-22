@@ -6,13 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="B-API" />
         <module name="B-Dao" />
+        <module name="B-API" />
         <module name="Service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Spring-bilibili-dao" target="8" />
+      <module name="B-API" target="8" />
+      <module name="B-Dao" target="8" />
+      <module name="Service" target="8" />
+      <module name="spring-B" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
