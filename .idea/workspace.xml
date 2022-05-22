@@ -5,31 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8afe8a3-74b2-4f21-8e7a-1af43ed25839" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B-API/src/main/java/com/b/api/DemoApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B-Dao/src/main/java/com/b/dao/DemoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/src/main/java/com/b/service/DemoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-API/B-API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/B-API/B-API.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-API/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/B-API/src/main/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-API/target/classes/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/B-API/target/classes/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-API/target/classes/com/b/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/B-API/target/classes/com/b/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-Dao/B-Dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/B-Dao/B-Dao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B-Dao/src/main/java/com/b/dao/dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-API/src/main/java/com/b/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/B-API/src/main/java/com/b/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-API/src/main/java/com/b/api/DemoApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/B-API/src/main/java/com/b/api/DemoApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Dao/src/main/java/com/b/dao/DemoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/B-Dao/src/main/java/com/b/dao/DemoDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/B-Dao/src/main/resources/mapper/batis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/B-Dao/src/main/resources/mapper/batis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/Service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Service/Service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Dao/target/classes/com/b/dao/DemoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/B-Dao/target/classes/com/b/dao/DemoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B-Dao/target/classes/mapper/batis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/B-Dao/target/classes/mapper/batis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/src/main/java/com/b/service/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Service/src/main/java/com/b/service/DemoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-B.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/target/classes/com/b/service/DemoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Service/target/classes/com/b/service/DemoService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,7 +72,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -112,6 +106,10 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.b.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,7 +145,7 @@
       <workItem from="1652922049318" duration="207000" />
       <workItem from="1652922278892" duration="347000" />
       <workItem from="1652922656302" duration="1091000" />
-      <workItem from="1653197307953" duration="10916000" />
+      <workItem from="1653197307953" duration="11968000" />
     </task>
     <servers />
   </component>
