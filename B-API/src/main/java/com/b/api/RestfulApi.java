@@ -20,30 +20,38 @@ public class RestfulApi {
         }
     }
 
-    @GetMapping("/getData/${id}")
+    @GetMapping("/getData/{id}")
     public Map<String,Object> getData(@PathVariable Integer id){
         return dataMap.get(id);
     }
 
-    @DeleteMapping("/delete/${id}")
+    @DeleteMapping("/delete/{id}")
     public void deleteData(@PathVariable Integer id){
          dataMap.remove(id);
     }
 
     @PostMapping("/post")
-    public void posData(@RequestBody Map<String, Object> data){
+    public String posData(@RequestBody Map<String, Object> data){
         Integer[] idArray = dataMap.keySet().toArray(new Integer[0]);
         System.out.println(dataMap.keySet().toArray());
         Arrays.sort(idArray);
         int  nextId = idArray[idArray.length - 1] + 1;
         dataMap.put(nextId, data);
+        return "post success";
     }
 
-    @PutMapping("/put/${id}")
+    @PutMapping("/put/{id}")
     public void putData(@RequestBody Map<String, Object> data){
-        Integer[] idArray = dataMap.keySet().toArray(new Integer[0]);
-        Arrays.sort(idArray);
-        int  nextId = idArray[idArray.length - 1] + 1;
-        dataMap.put(nextId, data);
+       Integer id= Integer.valueOf(String.valueOf(data.get("id")));
+       Map<String, Object> containerData = dataMap.get(id);
+       if(containerData == null){
+           Integer[] idArray = dataMap.keySet().toArray(new Integer[0]);
+           System.out.println(dataMap.keySet().toArray());
+           Arrays.sort(idArray);
+           int  nextId = idArray[idArray.length - 1] + 1;
+           dataMap.put(nextId, data);
+       }else{
+           dataMap.put(id, data);
+       }
     }
 }
